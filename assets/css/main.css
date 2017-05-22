@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+  src: url("ProximaNovaSoft-Regular.otf")format("opentype");
+}
+body {
+  font-family: "proxima-nova-soft";
+}
+section {
+  position: relative;
+}
+.section-hero {
+  background-color: #9ACCEF;
+  height: 650px;
+  overflow: hidden;
+}
+.section-hero .icon {
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+}
+.section-hero .section-bg {
+  background-position: center bottom;
+  background-size: initial;
+  height: 100%;
+  left: 0;
+  width: 100%;
+}
+.section-hero .floor {
+  background-color: #FFFFFF;
+  bottom: 0;
+  height: 47px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.section-hero .icon--hero-park {
+  bottom: 0;
+  height: 316px;
+  left: 12%;
+  width: 260px;
+}
+.section-hero .icon--hero-bench {
+  bottom: 0;
+  height: 66px;
+  right: 20%;
+  width: 148px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

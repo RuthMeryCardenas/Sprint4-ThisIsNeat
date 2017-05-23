@@ -20,6 +20,8 @@ section {
   font-size: 6.4rem;
 }
 .icon {
+  background-position: center;
+  background-size: cover;
   position: absolute;
 }
 /*SECCIÓN PRINCIPAL*/
@@ -77,6 +79,8 @@ section {
 /*SECCIÓN HOW IT WORK*/
 .section-how-it-works {
   background-color: #FFFFFF;
+  padding-bottom: 5.0rem;
+  padding-top: 7.5rem;
 }
 .section-how-it-works .row{
   padding: 0 9.5rem;

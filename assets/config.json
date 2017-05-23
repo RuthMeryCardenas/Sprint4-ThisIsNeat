@@ -6,11 +6,11 @@
     "@gray": "lighten(@gray-base, 33.5%)",
     "@gray-light": "lighten(@gray-base, 46.7%)",
     "@gray-lighter": "lighten(@gray-base, 93.5%)",
-    "@brand-primary": "darken(#428bca, 6.5%)",
+    "@brand-primary": "#3498DB",
     "@brand-success": "#6EA43F",
-    "@brand-info": "#3498DB",
-    "@brand-warning": "#f0ad4e",
-    "@brand-danger": "#ED7161",
+    "@brand-info": "#5bc0de",
+    "@brand-warning": "#FFCC66",
+    "@brand-danger": "#d9534f",
     "@body-bg": "#fff",
     "@text-color": "@gray-dark",
     "@link-color": "@brand-primary",
@@ -32,7 +32,7 @@
     "@line-height-base": "1.428571429",
     "@line-height-computed": "floor((@font-size-base * @line-height-base))",
     "@headings-font-family": "inherit",
-    "@headings-font-weight": "500",
+    "@headings-font-weight": "600",
     "@headings-line-height": "1.1",
     "@headings-color": "inherit",
     "@icon-font-path": "\"../fonts/\"",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=f7b35c36d157fa7edd5baff328abe5d8"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=09e3eb720f0b6d95b17c2aa5c850bbb4"
 }

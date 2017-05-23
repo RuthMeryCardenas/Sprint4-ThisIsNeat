@@ -10,11 +10,14 @@ section {
   position: relative;
 }
 /*CLASES REUTILIZABLES*/
-.text-primary {
+.text-white {
   color: #FFFFFF;
 }
+.text-blue {
+  color: #3498DB;
+}
 .intro-heading {
-  font-size: 6rem;
+  font-size: 6.4rem;
 }
 /*SECCIÓN PRINCIPAL*/
 .section-hero {
@@ -58,20 +61,41 @@ section {
   width: 148px;
 }
 .section-hero .section-content {
-  top: 30%;
+  top: 20%;
 }
 .section-hero .section-content .row:nth-child(1) {
   padding-bottom: 5rem;
 }
-.section-hero .section-content h1,
-.section-hero .section-content h3,
-.section-hero .section-content .btn-info{
-  font-weight: 600;
-}
-.section-hero .section-content .btn-info {
+.section-hero .section-content .btn-primary {
 	border-radius: 31px;
+  font-weight: 600;
   font-size: 2.4rem;
   padding: 1.4rem 4.5rem;
+}
+/*SECCIÓN HOW IT WORK*/
+.section-how-it-works {
+  background-color: #FFFFFF;
+}
+.section-how-it-works .row{
+  padding: 0 9.5rem;
+  height: 275px;
+}
+.section-how-it-works .row > div{
+  height: 100%;
+}
+.section-how-it-works h1{
+  font-size: 4.8rem;
+}
+.section-how-it-works p{
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 3.6rem;
+}
+.section-how-it-works .icon-container{
+  height: 100%;
+  width: 275px;
+  background-color: #FFCC66;
+  border-radius: 50%;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

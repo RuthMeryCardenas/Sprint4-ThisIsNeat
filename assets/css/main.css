@@ -9,6 +9,12 @@ body {
 section {
   position: relative;
 }
+section h1{
+  font-size: 4.8rem;
+}
+h3{
+  line-height: 3.6rem;
+}
 /*CLASES REUTILIZABLES*/
 .text-white {
   color: #FFFFFF;
@@ -23,6 +29,11 @@ section {
   background-position: center;
   background-size: cover;
   position: absolute;
+  display: inline-block;
+}
+.title-section {
+  margin-bottom: 5.0rem;
+  margin-top: 7.5rem;
 }
 /*SECCIÓN PRINCIPAL*/
 .section-hero {
@@ -32,7 +43,6 @@ section {
 }
 .section-hero .icon {
   background-size: contain;
-  display: inline-block;
 }
 .section-hero .section-bg {
   background-position: center bottom;
@@ -48,7 +58,7 @@ section {
   width: 100%;
 }
 .section-hero .floor {
-  background-color: #FFFFFF;
+  background-color: #f9f9f9;
   bottom: 0;
   height: 47px;
 }
@@ -78,7 +88,7 @@ section {
 }
 /*SECCIÓN HOW IT WORK*/
 .section-how-it-works {
-  background-color: #FFFFFF;
+  background-color: #f9f9f9;
   padding-bottom: 5.0rem;
   padding-top: 7.5rem;
 }
@@ -88,9 +98,6 @@ section {
 }
 .section-how-it-works .row > div{
   height: 100%;
-}
-.section-how-it-works h1{
-  font-size: 4.8rem;
 }
 .section-how-it-works p{
   font-size: 1.8rem;
@@ -109,6 +116,23 @@ section {
 .section-how-it-works .icon-container .icon--lg {
   height: 175px;
   width: 175px;
+}
+/*SECCIÓN OUR PROMISE*/
+.section-our-promise .feature-toggle{
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+.section-our-promise .feature-icon{
+  height: 80px;
+  margin-bottom: 10px;
+}
+.section-our-promise .icon{
+  height: 80px;
+  position: relative;
+  width: 80px;
+}
+.section-our-promise p{
+  font-size: 1.4rem;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

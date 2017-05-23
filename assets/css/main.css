@@ -19,6 +19,9 @@ section {
 .intro-heading {
   font-size: 6.4rem;
 }
+.icon {
+  position: absolute;
+}
 /*SECCIÓN PRINCIPAL*/
 .section-hero {
   background-color: #9ACCEF;
@@ -28,7 +31,6 @@ section {
 .section-hero .icon {
   background-size: contain;
   display: inline-block;
-  position: absolute;
 }
 .section-hero .section-bg {
   background-position: center bottom;
@@ -96,6 +98,13 @@ section {
   width: 275px;
   background-color: #FFCC66;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-how-it-works .icon-container .icon--lg {
+  height: 175px;
+  width: 175px;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
